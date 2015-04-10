@@ -2,7 +2,7 @@ def gcd(x,y):
     if (x==y):
         ans=x
     elif(x>y):
-        ag=gcd((x-y),y)
+        g=gcd((x-y),y)
     else:
         g=gcd(x,(y-x))
     return g
